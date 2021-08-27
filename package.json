@@ -1,20 +1,28 @@
 {
-  "name": "nodejs",
+  "name": "web2-nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "directories": {
     "lib": "lib"
   },
-  "dependencies": {
-    "mysql": "^2.18.1",
-    "pm2": "^5.1.1",
-    "sanitize-html": "^2.4.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-n/Nodejs.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web-n/Nodejs/issues"
+  },
+  "homepage": "https://github.com/web-n/Nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "sanitize-html": "^1.18.2"
+  }
 }
